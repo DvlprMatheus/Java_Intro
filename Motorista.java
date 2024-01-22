@@ -31,7 +31,7 @@ public class Motorista {
                     System.out.print("Digite o ano de expedição da sua CNH: ");
                     int anoExpedicao = scan.nextInt();
 
-                    // Condição que verifica se o ano de expedição é válido, ou menor que o ano atual.
+                    // Condição que verifica se o ano de expedição é válido, ou maior que o ano atual.
                     if(anoExpedicao < 1950 || anoExpedicao > 2100 || anoExpedicao > anoAtual){
                         System.out.println("Digite um ano válido.");
                     } else {
