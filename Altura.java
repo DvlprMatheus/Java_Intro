@@ -15,11 +15,15 @@ public class Altura {
             System.out.print("Digite sua altura: ");
             double altura = scan.nextDouble();
 
-            // Condição que valida a altura digitada pelo usuário com a altura média.
-            if(altura >= mediaAlt){
-                System.out.println("Você é alto(a)!");
+            if(altura > 2.5){
+                System.out.println("Você não pode ser tão alto assim!");
             } else {
-                System.out.println("Você não é tão alto(a)");
+                // Condição que valida a altura digitada pelo usuário com a altura média.
+                if(altura >= mediaAlt){
+                    System.out.println("Você é alto(a)!");
+                } else {
+                    System.out.println("Você não é tão alto(a)");
+                }
             } // Cria uma exceção que trata o erro.
         } catch (Exception e){
             System.out.println("Altura Inválida!");
