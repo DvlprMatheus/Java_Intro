@@ -15,6 +15,7 @@ public class Altura {
             System.out.print("Digite sua altura: ");
             double altura = scan.nextDouble();
 
+            // Condição que verifica se a altura é valida.
             if(altura > 2.5){
                 System.out.println("Você não pode ser tão alto assim!");
             } else {
