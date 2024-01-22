@@ -9,7 +9,7 @@ public class Reverse {
         // Input da String
         System.out.print("Escreva alguma coisa: ");
         String texto = scan.nextLine();
-        texto = texto.toLowerCase().trim();
+        texto = texto.trim();
 
         // String que recebe a palavra e inverte.
         String invertida = new StringBuilder(texto).reverse().toString();
